@@ -1,0 +1,31 @@
+.next
+_old
+build
+build-electron
+.build-storybook
+
+# Dependency directory
+node_modules
+
+# OSX
+.DS_Store
+
+# Editors
+.idea
+*.sublime-project
+*.sublime-workspace
+.vscode
+
+# Logs
+logs
+*.log
+.yarnclean
+
+coverage
+
+.env*
+!.env.dev
+dist
+
+*.code-workspace
+__docker-snapshots__
